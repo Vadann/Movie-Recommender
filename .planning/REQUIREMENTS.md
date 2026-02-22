@@ -54,8 +54,6 @@ Deferred — not in current roadmap. Will be revisited after v1 ships.
 
 ## Traceability
 
-Updated during roadmap creation.
-
 | Requirement | Phase | Status |
 |-------------|-------|--------|
 | FOUND-01 | Phase 1 | Pending |
@@ -72,8 +70,8 @@ Updated during roadmap creation.
 **Coverage:**
 - v1 requirements: 10 total
 - Mapped to phases: 10
-- Unmapped: 0 ✓
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-21*
-*Last updated: 2026-02-21 after initial definition*
+*Last updated: 2026-02-21 after roadmap creation — all 10 requirements confirmed mapped*
