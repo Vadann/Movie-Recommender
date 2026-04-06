@@ -1,0 +1,34 @@
+# Core Framework
+fastapi
+uvicorn[standard]
+
+# Data & ML
+pandas
+numpy
+scikit-learn
+
+# API & HTTP
+httpx
+requests
+
+# Configuration
+pydantic
+pydantic-settings
+python-dotenv
+
+# Authentication & Security
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+authlib
+
+# Database
+sqlalchemy
+alembic
+
+# PostgreSQL drivers (choose one based on your needs)
+# For sync PostgreSQL:
+psycopg2-binary
+
+# For async PostgreSQL (optional):
+# asyncpg

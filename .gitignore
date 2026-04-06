@@ -4,34 +4,92 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
 venv/
+env/
 ENV/
+*.pkl
+*.pickle
+
+# Environment variables - IMPORTANT!
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
 
 # IDE
-.idea/
 .vscode/
+.idea/
 *.swp
 *.swo
+.DS_Store
 
-# Project specific
-.env
+# Node
+node_modules/
+dist/
+build/
+.npm
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable
+
+# Project specific - ML models and data
+backend/app/ml/movie_data.pkl
+src/movie_data.pkl
+*.pkl
+
+# Database - NEVER commit databases!
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+movie_recommender.db
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Secret files - IMPORTANT!
 config.py
-movie_data.pkl 
+secrets.json
+credentials.json
+
+# Build files
+*.pyc
+*.pyo
+
+
+# Claude Code internal files
+.claude/
+
+# GSD planning files
+.planning/
+
+# Trained ML model artifacts (generated, can be large)
+*.keras
+ncf_mappings.json
+
+# Internal docs not meant for public repo
+TESTING_GUIDE.md
+AUTH_SETUP.md
+FINAL_SUMMARY.md
+GITHUB_SETUP.md
+SETUP_GUIDE.md
+TROUBLESHOOTING.md
+WHATS_NEW.md
+PROJECT_OVERVIEW.md
+COMPARISON.md
+QUICK_REFERENCE.md
+

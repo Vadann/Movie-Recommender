@@ -1,0 +1,17 @@
+# Absolute minimum to run the app
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+httpx
+python-dotenv
+pydantic
+pydantic-settings
+python-multipart
+sqlalchemy
+passlib
+bcrypt
+PyJWT
+
+
